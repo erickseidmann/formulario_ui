@@ -32,7 +32,7 @@
                     <div class="row input-group mt-1 ">
                         <div class="col-md-6 mb-3">
                             <button name="tipo" id="pjbtn" type="button" class="btn bot-click  btn-info  fw-semibold btn-sm">
-                                Sou Pessoa Juridica*
+                                Não Sou o Aluno*
                             </button>
                         </div>
                     </div>
@@ -40,7 +40,7 @@
 
                     <div class="row input-group mb-3 fw-semibold ">
                         <div class="col-md-6 ">
-                            <label>Nome*</label>
+                            <label>Nome do aluno*</label>
                             <input type="text" class="form-control bg-light  " name="nome" id="nome"
                                 placeholder="ex: João" />
                         </div>
@@ -67,18 +67,18 @@
                     <div id="pj" class="input-group mb-3 fw-semibold">
                         <div class="row input-group mb-3">
                             <div class="col-md-6 ">
-                                <label>Razão Social*</label>
+                                <label>Nome Do Responsavel*</label>
                                 <input name="razaosocial" id="razaosocial" type="text" class="form-control bg-light btn-outline-secondary" />
                             </div>
                             <div class="col-md-6 ">
-                                <label>Nome Fantasia*</label>
+                                <label>Sobrenome Do Responsavel*</label>
                                 <input type="text" name="nomefantasia" id="nomefantasia" class="form-control bg-light btn-outline-secondary" />
                             </div>
                         </div>
                         <div class="col-md-6 mb-3 fw-semibold">
-                            <label>CNPJ*</label>
-                            <input id="cnpj" type="text" name="cnpj" class="form-control bg-light btn-outline-secondary"
-                                autocomplete="off" onkeyup="mascara_cnpj()" />
+                        <label>CPF*</label>
+                            <input id="cpf" type="text" name="cpf" class="form-control bg-light btn-outline-secondary"
+                                autocomplete="off" />
                         </div>
                     </div>
 
@@ -100,7 +100,7 @@
                             <input id="data" type="text" name="data" class="form-control bg-light date" />
                         </div>
                         <div class="col-md-6 ">
-                            <label>Telefone*</label>
+                            <label>Celular*</label>
                             <input type="tel" id="tele" name="tele"
                                 class="form-control bg-light btn-outline-secondary" />
                         </div>
